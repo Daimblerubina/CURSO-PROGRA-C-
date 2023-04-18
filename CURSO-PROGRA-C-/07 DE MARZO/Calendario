@@ -1,0 +1,29 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+  int dias, primerDia;
+
+  cout << "Ingrese el número de días del mes: ";
+  cin >> dias;
+
+  cout << "Ingrese el primer día del mes (1=Lunes, 7=Domingo): ";
+  cin >> primerDia;
+
+  cout << "L  M  X  J  V  S  D" << endl;
+
+  for (int i = 1; i < primerDia; i++) {
+    cout << "   ";
+  }
+
+  for (int i = 1; i <= dias; i++) {
+    cout << setw(2) << i << " ";
+
+    if ((i + primerDia - 1) % 7 == 0) {
+      cout << endl;
+    }
+  }
+
+  return 0;
+}

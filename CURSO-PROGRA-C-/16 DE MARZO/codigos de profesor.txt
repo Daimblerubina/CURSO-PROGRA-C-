@@ -1,0 +1,139 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a[] = {0, 5, 3, 20, 15, 3, 35, 45, -1, 3};
+    int tamaño = sizeof(a) / sizeof(a[0]);
+    cout << "\n"
+         << tamaño;
+    // valor maximo de manera dinamica
+    for (int i = 0; i < tamaño; i++)
+    {
+        // cout<<"\n"<<"el valor se repite: "<<i;
+        cout << "\n"
+             << "el valor del vecto a[" << i << "]" << a[i] << "\n";
+    }
+
+    int menor = a[0];
+
+    for (int i = 1; i < tamaño; i++)
+    {
+        if (a[i] < menor)
+        {
+            menor = a[i]; // actualizamos el valor del menor
+        }
+    }
+
+    // numero mayor
+    int mayor = a[0];
+
+    for (int i = 1; i < tamaño; i++)
+    {
+        if (a[i] > mayor)
+        {
+            mayor = a[i]; // actualizamos el valor del menor
+        }
+    }
+    // numero igual_ mal diseñado
+    int numero_igual = 0;
+    /*
+        for (int i = 1; i < tamaño; i++)
+        {
+            if (a[i] == numero_igual)
+            {
+                numero_igual = a[i]; // actualizamos el valor del menor
+            }
+        }
+        */
+    // numero igual mejorado
+    int cont =0;
+      for (int i = 0; i < tamaño-1; i++)
+      {
+          int numero_igual_temp = a[i];
+          for (int y = i+1; y <tamaño; y++)
+          {
+              if (numero_igual_temp == a[y])
+              {
+                  numero_igual = a[y];
+                  cont++;
+              }
+        }
+    }
+    cout << "el numero menor es: " << menor << "\n";
+    cout << "el numero mayor es: " << mayor << "\n";
+    cout << "el numero igual es: " << numero_igual << "\n";
+
+    return 0;
+}
+
+
+// numeros que se repiten en un arreglo
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {5, 10, 2, 8, 5, 3, 10, 2, 2};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    
+
+    cout << "Los números que se repiten en el arreglo son: ";
+
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                cout << arr[i] << " "; // imprimimos el número que se repite
+                break;
+            }
+        }
+    }
+
+    cout << endl;
+
+    return 0;
+}
+
+
+
+/////////////////////////////////////////// ordenamiento
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[] = {1, 2, 3,4, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Los números que se repiten en el arreglo son: ";
+
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = + 1; j < n; j++)
+        {
+            if (arr[i] == arr[j])
+            {
+                cout << arr[i] << " "; // imprimimos el número que se repite
+                break;
+            }
+        }
+    }
+
+    cout << endl;
+
+    // ordenar la lista de mayor a menor
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int y = 0; y < n - i - 1; y++)
+        {
+            if (a])
+            {f
+                int varTemp = arr[y];
+                arr[y] = arr[y+1];
+                arr[y+1]= varTemp;
+            }
+        }
+    }
+
+
+
