@@ -1,0 +1,10 @@
+Elaborar un ejercicio
+elabore un clase denominada cuadrilátero, implemente sus atributos y métodos
+resuelva las siguiente interrogantes
+
+--> declarar 3 objetos de tipo cuadrado
+   modifique los lados de 2 objetos
+   realice la sumatoria de los lados por objeto y el total
+   realice el calculo del area y perimetro de cada objeto
+   calcule la sumatoria de las areas de todos lo objeto
+  calcule la sumatoria del perimetro de todos los objetos
