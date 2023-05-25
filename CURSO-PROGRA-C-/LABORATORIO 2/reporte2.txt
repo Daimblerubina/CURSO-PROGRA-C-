@@ -1,0 +1,125 @@
+Nombre de la tienda: Mi Tienda de Vehículos
+
+Automóviles:
+Color: Rojo
+Marca: Toyota
+Cilindrada: 2000cc
+Número de asientos: 5
+Número de ruedas: 4
+Número de puertas: 4
+Certificación de seguridad: Sí
+
+Color: Azul
+Marca: Honda
+Cilindrada: 1800cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: negro
+Marca: mitsubisi
+Cilindrada: 1500cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: blanco
+Marca: volsvagen
+Cilindrada: 1200cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: celeste
+Marca: ferrari
+Cilindrada: 2100cc
+Número de asientos: 2
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: blanco
+Marca: toyota
+Cilindrada: 1900cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: rojo
+Marca: Honda
+Cilindrada: 1400cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: amarillo
+Marca: audi
+Cilindrada: 1500cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: negro
+Marca: lexus
+Cilindrada: 1800cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+Color: amarillo
+Marca: lamborgini
+Cilindrada: 1900cc
+Número de asientos: 4
+Número de ruedas: 4
+Número de puertas: 2
+Certificación de seguridad: Sí
+
+
+Motocicletas:
+Color: Negro
+Marca: Yamaha
+Cilindrada: 1000cc
+Número de asientos: 1
+Número de ruedas: 2
+Número de puertas: 0
+Certificación de seguridad: No
+
+Color: Blanco
+Marca: Suzuki
+Cilindrada: 750cc
+Número de asientos: 1
+Número de ruedas: 2
+Número de puertas: 0
+Certificación de seguridad: Sí
+
+Color: Blanco
+Marca: pulsar
+Cilindrada: 200cc
+Número de asientos: 2
+Número de ruedas: 2
+Número de puertas: 0
+Certificación de seguridad: Sí
+
+Color: Blanco
+Marca: ducati
+Cilindrada: 500cc
+Número de asientos: 2
+Número de ruedas: 2
+Número de puertas: 0
+Certificación de seguridad: Sí
+
+Color: Blanco
+Marca: ktm
+Cilindrada: 390cc
+Número de asientos: 2
+Número de ruedas: 2
+Número de puertas: 0
+Certificación de seguridad: Sí
+

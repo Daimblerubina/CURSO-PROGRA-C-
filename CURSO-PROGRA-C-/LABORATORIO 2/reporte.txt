@@ -1,0 +1,18 @@
+Departamento: Departamento de Ventas (DV)
+=========================
+Empleados:
+
+Empleado 1:
+Nombre: Juan Pérez
+Edad: 30
+Puesto: Vendedor
+Sueldo: 2500
+Antiguedad: 5 años
+-------------------------
+Empleado 2:
+Nombre: María López
+Edad: 35
+Puesto: Gerente de Ventas
+Sueldo: 5000
+Antiguedad: 8 años
+-------------------------
